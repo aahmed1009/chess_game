@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>♟ Chess</h1>
+
+    <div class="wrap">
+      <div class="board-area">
+        <div class="rank-nums" id="ranks"></div>
+        <div class="board-col">
+          <div id="board"></div>
+          <div class="file-letters" id="files"></div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="turn-box white" id="turn-box">White's Turn ♔</div>
+        <div class="status-msg" id="status-msg"></div>
+        <div class="btn-row">
+          <button onclick="undo()">Undo</button>
+          <button onclick="reset()">Reset</button>
+        </div>
+        <div class="hist-label">Move History</div>
+        <div id="history"></div>
+      </div>
+    </div>
+
+    <div id="promo-modal">
+      <div class="promo-box">
+        <div class="promo-title">Promote pawn to:</div>
+        <div class="promo-choices" id="promo-choices"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
