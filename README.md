@@ -2,6 +2,8 @@
 
 A chess game that runs in the browser. No installs, just open the file and play.
 
+**[Try it live](https://aahmed1009.github.io/chess_game/chess.html)**
+
 ![The board at the start of a game](screenshots/board.png)
 
 ## How to play
